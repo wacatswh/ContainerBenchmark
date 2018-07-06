@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo Beginning of script
+echo
+echo Time taken of different containers for different operations 
+echo 
+echo Time taken for std::list
+echo
+time ./list $1
+echo
+echo Time taken for std::map
+echo
+time ./map $1
+echo
+echo Time taken for std::unordered_map
+echo
+time ./umap $1
+echo
+echo End of script
+

@@ -1,0 +1,44 @@
+Beginning of script
+
+Time taken of different containers for different operations
+
+Time taken for std::list
+
+Time insert 50000000 integers ascending: 3.75
+Time insert 50000000 integers descending: 3.9375
+Time insert 50000000 integers random: 4.40625
+Time random access to 1/3th element: 0.71875
+Time random access to 1/2th element: 0.90625
+Time searching largest element: 2.01562
+Time searching smallest element: 1.89062
+Time random access and delete 1/3th element: 0.5625
+Time random access and delete largest element: 2.125
+Time clearing all element: 3
+
+Time taken for std::map
+
+Time insert 50000000 integers ascending: 61.6875
+Time insert 50000000 integers descending: 72.4531
+Time insert 50000000 integers random: 116.344
+Time direct access to 1/3th element with key: 0
+Time direct access to 1/2th element with key: 0
+Time searching largest element: 29.7969
+Time searching smallest element: 28.7031
+Time direct access and delete 1/3th element: 0.015625
+Time random access and delete element with largest value: 18.3906
+Time clearing all element: 18.1719
+
+Time taken for std::unordered_map
+
+Time insert 50000000 integers ascending: 18.2344
+Time insert 50000000 integers descending: 19.3594
+Time insert 50000000 integers random: 18.7656
+Time direct access to 1/3th element with key: 0
+Time direct access to 1/2th element with key: 0
+Time searching largest element: 6.76562
+Time searching smallest element: 6.59375
+Time direct access and delete 1/3th element: 0
+Time random access and delete element with largest value: 6.10938
+Time clearing all element: 8.625
+
+End of script
